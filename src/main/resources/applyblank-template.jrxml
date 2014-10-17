@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 5.6.2.final using JasperReports Library version 5.6.1  -->
+<!-- 2014-10-08T17:15:27 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="application-template" pageWidth="595" pageHeight="841" columnWidth="415" leftMargin="90" rightMargin="90" topMargin="20" bottomMargin="20" uuid="d041e3ee-3cc4-40ad-b83a-db26317a12ca">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="cm"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="clientName" class="java.lang.String">
+		<fieldDescription><![CDATA[clientName]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="51" splitType="Stretch">
+			<staticText>
+				<reportElement x="233" y="0" width="182" height="51" uuid="04462002-9d5b-46dc-8f4c-cf9cb3b2bf10"/>
+				<textElement>
+					<font size="6" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[正和岛|zhisland
+北京市海淀区中关村东路1号院清华科技园创新大厦B座9层 100084
+9F of Tower B, Innovation Building, TusPark, No.1, 
+Zhongguancun East Road, Haidian District, Beijing 100084
+Tel: (0086)-10-62539800 Fax: (0086)-10-58043536
+Email: service@zhisland.com]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="90" splitType="Stretch">
+			<staticText>
+				<reportElement x="147" y="0" width="120" height="30" uuid="41a58358-cf0c-4a4a-8871-2213a7e98b74"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="12" isBold="true" pdfFontName="STSong-Light" pdfEncoding="UniGB-UCS2-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[正和岛入岛申请表]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="413" height="60" uuid="69012adf-4061-4a6c-bde3-94b08e10c0f0"/>
+				<textElement>
+					<font fontName="SansSerif" pdfFontName="STSong-Light" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
+				</textElement>
+				<text><![CDATA[        正和岛是以信任为基础的企业家网络社交平台，以下信息的真实性、客观性将会成为您在正和岛信用评价的依据。请如实填写，我们将对您填写的资料信息严格保密，仅用于正和岛会员资格申请及日后方便为您提供服务之用。
+        本人承诺本申请表信息真实有效。
+]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="223" splitType="Stretch"/>
+	</detail>
+	<pageFooter>
+		<band height="34" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="2" width="50" height="30" uuid="21be81e8-e7fd-45a6-bd74-8862071769c8"/>
+				<imageExpression><![CDATA["icon.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageFooter>
+</jasperReport>

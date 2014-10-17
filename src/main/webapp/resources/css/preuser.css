@@ -1,0 +1,9 @@
+body {
+  color: #333;
+  background-color: #e0dfdc;
+  font: 14px/24px "微软雅黑", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.help-block {
+  color: #d60000;
+}
